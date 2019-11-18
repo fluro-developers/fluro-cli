@@ -1,0 +1,23 @@
+{
+  "name": "nodetest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+      "do-the-thing": "cli.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.1.0",
+    "chalk": "^3.0.0",
+    "fluro": "^1.0.74",
+    "inquirer": "^7.0.0",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "papaparse": "^5.0.0"
+  }
+}
